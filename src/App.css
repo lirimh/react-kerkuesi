@@ -426,6 +426,7 @@ header {
 		list-style: none;
 		color: #FFF;
 		padding-left: 31px;
+		white-space: nowrap;
 	}
 
 	.results {
