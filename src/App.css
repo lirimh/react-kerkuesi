@@ -371,3 +371,143 @@ header {
 .movie-icon {
 	cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+	.category {
+		display: flex;
+		justify-content: center;
+		justify-content: space-evenly;
+		padding-top: 104px;
+		margin-left: 200px;
+	}
+
+	.searchbox-wrap {
+		padding-top: 50px;
+	}
+
+	.category img {
+		padding-top: 60px;
+		width: 150px;
+		padding-right: 10px;
+	}
+
+	.searchbox {
+		display: block;
+		width: 151%;
+		padding: 20px;
+		border: none;
+		outline: none;
+		background: none;
+		background-color: #EEE;
+		border-radius: 40px;
+		color: #53565A;
+		font-size: 20px;
+		font-weight: 300;
+		transition: 0.4s ease-out;
+		box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+	}
+
+	.big-logo {
+		margin: auto;
+		display: flex;
+		padding-bottom: 20px;
+		margin-left: 95px;
+	}
+
+	header hr {
+		position: absolute;
+		width: 128.3%;
+		border-color: #3BC6C5;
+		margin-top: 60px;
+	}
+
+	.navbar-links li {
+		padding-right: 33px;
+		list-style: none;
+		color: #FFF;
+		padding-left: 31px;
+	}
+
+	.results {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 35px 134px;
+	}
+
+	.big-logo-about-us {
+		width: 405px;
+		display: flex;
+		justify-self: center;
+		margin: auto;
+		margin-top: 70px;
+		margin-left: 71px;
+	}
+
+	.about-us {
+		width: 133%;
+	}
+
+	.about-us p {
+		color: #EEE;
+		font-size: 19px;
+		margin-left: 48px;
+	}
+
+	.form {
+		display: block;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 40px;
+	}
+
+	.form input {
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid #3bc6c5;
+		background-color: transparent;
+		width: 160%;
+		padding: 10px;
+		color: #fff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+	}
+
+	.form textarea {
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid #3bc6c5;
+		background-color: transparent;
+		width: 160%;
+		padding-top: 70px;
+		color: #fff;
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+	}
+
+	.form-button {
+		background-color: #3bc6c5;
+		margin-left: 200px;
+		justify-content: center;
+		display: block;
+		border: none;
+		border-radius: 5px;
+		padding: 15px 50px;
+		font-size: 15px;
+		cursor: pointer;
+		margin-top: 20px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+	}
+
+	.popup {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #223343;
+		overflow-y: scroll;
+	}
+}
