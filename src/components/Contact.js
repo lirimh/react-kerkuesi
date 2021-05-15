@@ -5,26 +5,19 @@ const Contact = () => {
         <div className="contact-us">
             <main>
                 <h1>Kontakto</h1>
-                <form
-                name="contact v1" method="post" data-netlify="true" onSubmit="submit"
-                >
-                    <input type="hidden" name="form-name" value="contact v1"></input>
-                    <div className="form">
-                        <label>First Name <br/>
-                            <input type="text" name="first-name"></input>
-                        </label>
-                    </div>
-                    <div className="form">
-                        <label htmlFor="email">Email <br/>
-                            <input id="email" type="email" name="email"></input>
-                        </label>
-                    </div>
-                    <div className="form">
-                        <label>Any Comments <br/>
-                            <textarea name="comments"></textarea>
-                        </label>
-                    </div>
-                    <button className="form-button" type="submit">Submit</button>
+                <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
                 </form>
             </main>
         </div>
