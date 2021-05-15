@@ -393,7 +393,7 @@ header {
 
 	.searchbox {
 		display: block;
-		width: 151%;
+		width: 164%;
 		padding: 20px;
 		border: none;
 		outline: none;
@@ -416,7 +416,7 @@ header {
 
 	header hr {
 		position: absolute;
-		width: 128.3%;
+		width: 140.3%;
 		border-color: #3BC6C5;
 		margin-top: 60px;
 	}
