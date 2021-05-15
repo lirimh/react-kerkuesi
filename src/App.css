@@ -38,7 +38,7 @@ header h1 {
 
 header hr {
 	position: absolute;
-	width: 75.3%;
+	width: 76.5%;
 	border-color: #3BC6C5;
 	margin-top: 60px;
 }
@@ -362,8 +362,6 @@ header {
 	cursor: pointer;
 }
 
-.gaming-icon:hover {}
-
 .anime-icon {
 	cursor: pointer;
 }
@@ -416,7 +414,7 @@ header {
 
 	header hr {
 		position: absolute;
-		width: 76.5%;
+		width: 140.3%;
 		border-color: #3BC6C5;
 		margin-top: 60px;
 	}
